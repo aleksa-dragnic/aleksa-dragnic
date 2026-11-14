@@ -1,16 +1,19 @@
 ### Aleksa Dragnić
-**Full-Stack Software Engineer** | Node.js, TypeScript, React, .NET (C#), PostgreSQL
+**Backend Software Engineer** | C#, .NET, ASP.NET Core · Node.js, TypeScript · PostgreSQL
 
-Sole engineer behind a production subscription SaaS: web frontend, Node.js microservices, PostgreSQL, Stripe payments, video streaming and a cross-platform mobile app.
+I design, build and run production backend services. For over two years I have been the sole engineer of two live chess platforms (Node.js, PostgreSQL, Stripe). In .NET I build in the open:
 
-- Architected a Node.js microservices platform behind an Nginx API gateway, running in PM2 cluster mode on Linux
-- Built the complete Stripe billing system: subscriptions, auto-renewal, idempotent webhooks, refunds and vouchers
-- Cut database time per request by 50% while traffic doubled, and page weight by 64% across the site
-- Built a zero-downtime release process backed by 1,600+ automated tests
-- Previously built ASP.NET Core Web APIs and React features in C# at MIDENAS
+| Project | What it shows | Live |
+|---|---|---|
+| [UserManagementAPI](https://github.com/aleksa-dragnic/UserManagementAPI) | .NET 10 REST API for users, roles and permissions: clean architecture, CQRS, domain events, outbox, rotating refresh tokens, OpenTelemetry, 371 tests with Testcontainers, 21 ADRs | [API docs](https://api.aleksadragnic.com/scalar) |
+| [Umapi-Console](https://github.com/aleksa-dragnic/Umapi-Console) | React 19 and TypeScript admin console for the API, with Vitest and Playwright tests | [console.aleksadragnic.com](https://console.aleksadragnic.com) |
 
-**Stack:** TypeScript, JavaScript, React, Node.js, Express, C#, .NET, ASP.NET Core, Entity Framework Core, PostgreSQL, Redis, Stripe, Nginx, Docker, Linux
+**At work (code is private, happy to walk through the architecture):**
+- Cut database time per request by 50% while traffic doubled; critical queries from 270 ms to 12 ms
+- Built Stripe subscription billing end to end: renewals, idempotent webhooks, refunds, vouchers
+- Built a broker that rents cloud CPU machines on demand, with price ceilings and spend limits
+- Zero-downtime releases backed by 1,600+ automated tests
 
-Client code is private. Happy to walk through the architecture in an interview.
+**Stack:** C#, .NET, ASP.NET Core, EF Core, Node.js, Express, TypeScript, React, PostgreSQL, Redis, Stripe, Docker, Nginx, Linux
 
-Open to remote Full-Stack / Backend roles · EU & UK · B2B · CET · [LinkedIn](https://www.linkedin.com/in/aleksa-dragnic) · aljosadragnic@gmail.com
+Open to remote backend roles · CET · [LinkedIn](https://www.linkedin.com/in/aleksa-dragnic) · aljosadragnic@gmail.com
